@@ -1,2 +1,4 @@
-git clone 
+git clone https://github.com/vivekshwarup/nessus.git
+Download Nessus-8.3.1-ubuntu1110_amd64.deb and copy to nessus folder
 docker build -t vivek/nessus .
+docker run -it -p 8834:8834 --name nessus vivek/nessus
