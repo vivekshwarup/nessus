@@ -9,8 +9,7 @@ RUN wget https://filebin.net/rbqgascu15lp2wde/Nessus-8.3.1-ubuntu1110_amd64.deb?
 
 RUN apt-get update -y
 
-RUN && dpkg -i Nessus-8.3.1-ubuntu1110_amd64.deb \
-    && rm -r Nessus-8.3.1-ubuntu1110_amd64.deb
+RUN && dpkg -i Nessus-8.3.1-ubuntu1110_amd64.deb 
 
 EXPOSE 8834
 
