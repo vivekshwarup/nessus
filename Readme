@@ -1,4 +1,10 @@
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvivekshwarup%2Fnessus.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvivekshwarup%2Fnessus?ref=badge_shield)
+
 git clone https://github.com/vivekshwarup/nessus.git
 Download Nessus-8.3.1-ubuntu1110_amd64.deb (https://www.tenable.com/downloads/nessus) and copy to nessus folder 
 docker build -t vivek/nessus .
 docker run -it -p 8834:8834 --name nessus vivek/nessus
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fvivekshwarup%2Fnessus.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fvivekshwarup%2Fnessus?ref=badge_large)
